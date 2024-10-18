@@ -3,32 +3,31 @@ import React from 'react';
 import {motion} from 'framer-motion';
 //variants
 import { fadeIn} from '../variants';
-//emailjs
-// import React, { useRef } from 'react';
-// import emailjs from '@emailjs/browser';
+import { useRef } from 'react';
+import emailjs from '@emailjs/browser';
 
 const Contact = () => {
 
-  // const form = useRef();
+  const form = useRef();
 
-  // const sendEmail = (e) => {
-  //   e.preventDefault();
+  const sendEmail = (e) => {
+    e.preventDefault();
 
-  //   emailjs.sendForm('service_iqx7h8f', 'template_bwnqijd', form.current, 'wgPW2M5_TFkXUoVWb')
-  //     .then((result) => {
-  //         console.log(result.text);
-  //         alert("successful")
-  //     }, (error) => {
-  //         console.log(error.text);
-  //     });
-  // };
+    emailjs.sendForm('service_iqx7h8f', 'template_bwnqijd', form.current, 'wgPW2M5_TFkXUoVWb')
+      .then((result) => {
+          console.log(result.text);
+          alert("successful")
+      }, (error) => {
+          console.log(error.text);
+      });
+  };
 
 
 
 
   return (
-  <section className='py-16 lg:section' id='contact'>
-   <div className='container mx-auto'>
+  <section className='mt-15 py-16 lg:section' id='contact'>
+   <div className='container mx-auto mt-25'>
 <div className='flex flex-col lg:flex-row'>
   {/* text */}
   <motion.div variants={fadeIn('right', 0.3)} 
@@ -43,7 +42,7 @@ const Contact = () => {
   {/* form */}
   <motion.form 
   action='https://formspree.io/f/xrgvjbzb' method='POST'
-  // ref={form} onSubmit={sendEmail} 
+  ref={form} onSubmit={sendEmail} 
   variants={fadeIn('left', 0.3)} 
         initial="hidden" whileInView={'show'} 
         viewport={{once:false, amount:0.2}}   className='flex-1 border rounded-2xl flex flex-col gap-y-6 pb-24 p-6 items-start'>

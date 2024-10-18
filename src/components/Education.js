@@ -12,7 +12,7 @@ const Education = () => {
           initial="hidden"
           whileInView={"show"}
           viewport={{ once: false, amount: 0.7 }}
-          className="text-4xl font-bold text-center mb-12 text-white"
+          className="text-4xl font-bold text-center mb-12 text-accent"
         >
           Education
         </motion.h2>

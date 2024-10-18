@@ -36,25 +36,26 @@ const Banner = () => {
 
             {/* Animated Text */}
             <motion.div
-              variants={fadeIn("up", 0.3)}
-              initial="hidden"
-              whileInView={"show"}
-              viewport={{
-                once: false,
-                amount: 0.7,
-              }}
-              // Setting a fixed height to prevent overlap
-              className="mb-6 text-[36px] lg:text-[60px] font-secondary font-semibold uppercase leading-[1] h-[60px] lg:h-[70px] flex items-center"
-            >
-              <span className="text-white mr-2">A</span>
-              <TypeAnimation
-                sequence={["Full-Stack Developer", 2000]}
-                speed={50}
-                className="text-accent"
-                wrapper="span"
-                repeat={Infinity}
-              />
-            </motion.div>
+  variants={fadeIn("up", 0.3)}
+  initial="hidden"
+  whileInView={"show"}
+  viewport={{
+    once: false,
+    amount: 0.7,
+  }}
+  // Responsive height and typography
+  className="mb-6 text-[28px] sm:text-[36px] lg:text-[60px] font-secondary font-semibold uppercase leading-[1] h-[50px] sm:h-[60px] lg:h-[70px] flex items-center"
+>
+
+  <TypeAnimation
+    sequence={["Full-Stack Developer", 2000]}
+    speed={50}
+    className="text-accent"
+    wrapper="span"
+    repeat={Infinity}
+  />
+</motion.div>
+
 
             {/* Description */}
             <motion.p

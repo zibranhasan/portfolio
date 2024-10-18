@@ -12,9 +12,13 @@ const Work = () => {
   return (
     <section className="section mt-35 pt-35" id="work">
       <div className="container mx-auto">
+        {/* Title */}
+        <h2 className="text-4xl font-bold text-accent mb-12 text-center">
+          Projects
+        </h2>
         <div className="flex flex-col lg:flex-row gap-x-10">
-          <div className="flex-1 flex flex-col gap-y-12 mb-10 lg:mb-0">
-            {/* image */}
+          <div className="flex-1 flex flex-col gap-y-8 mb-4 lg:mb-0">
+            {/* Project 1: Car Wash Management System */}
             <div className="group relative overflow-hidden border-2 border-white/50 rounded-xl">
               {/* overlay */}
               <div className="group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300"></div>
@@ -38,36 +42,36 @@ const Work = () => {
               <div className="absolute -bottom-full left-12 group-hover:bottom-8 transition-all duration-700 z-50">
                 <div className="flex gap-4 mb-2">
                   <a
-                    className="text-blue-400 hover:underline"
+                    className="text-accent hover:underline"
                     href="https://car-wash-booking-system-livid.vercel.app/"
                   >
                     Live Link
                   </a>
                   <a
-                    className="text-blue-400 hover:underline"
+                    className="text-accent hover:underline"
                     href="https://github.com/zibranhasan/Car-wash-booking-system-frontend"
                   >
                     Client Link
                   </a>
                   <a
-                    className="text-blue-400 hover:underline"
+                    className="text-accent hover:underline"
                     href="https://github.com/zibranhasan/Car-Wash-Booking-System_backend"
                   >
                     Server Link
                   </a>
                 </div>
-           
               </div>
             </div>
           </div>
+
           <motion.div
             variants={fadeIn("right", 0.3)}
             initial="hidden"
             whileInView={"show"}
             viewport={{ once: false, amount: 0.3 }}
-            className="flex-1 flex flex-col gap-y-2 mb-8"
+            className="flex-1 flex flex-col gap-y-6 mb-8"
           >
-            {/* image */}
+            {/* Project 2: Electric Gadgets Management System */}
             <div className="group relative overflow-hidden border-2 border-white/50 rounded-xl">
               {/* overlay */}
               <div className="group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300"></div>
@@ -83,7 +87,7 @@ const Work = () => {
               </div>
               {/* title */}
               <div className="absolute -bottom-full left-12 group-hover:bottom-8 transition-all duration-700 z-50 mb-5 mt-0">
-                <span className="text-1xl text-white font-bold ">
+                <span className="text-1xl text-white font-bold">
                   Electric Gadgets Management System
                 </span>
               </div>
@@ -91,28 +95,28 @@ const Work = () => {
               <div className="absolute -bottom-full left-12 group-hover:bottom-8 transition-all duration-700 z-50">
                 <div className="flex gap-4 mt-1">
                   <a
-                    className="text-blue-400 hover:underline"
+                    className="text-accent hover:underline"
                     href="https://assignment-6-gilt-nine.vercel.app/"
                   >
                     Live Link
                   </a>
                   <a
-                    className="text-blue-400 hover:underline"
+                    className="text-accent hover:underline"
                     href="https://github.com/zibranhasan/Electric-gadgets-management-system-frontend"
                   >
                     Client Link
                   </a>
                   <a
-                    className="text-blue-400 hover:underline"
+                    className="text-accent hover:underline"
                     href="https://github.com/zibranhasan/Electric-gadgets-management-system-backend"
                   >
                     Server Link
                   </a>
                 </div>
-            
               </div>
             </div>
 
+            {/* Project 3: Lost and Found Item System */}
             <div className="group relative overflow-hidden border-2 border-white/50 rounded-xl">
               {/* overlay */}
               <div className="group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300"></div>
@@ -136,25 +140,24 @@ const Work = () => {
               <div className="absolute -bottom-full left-12 group-hover:bottom-8 transition-all duration-700 z-50">
                 <div className="flex gap-4 mb-2">
                   <a
-                    className="text-blue-400 hover:underline"
+                    className="text-accent hover:underline"
                     href="https://lost-and-found-item-frontend.vercel.app/"
                   >
                     Live Link
                   </a>
                   <a
-                    className="text-blue-400 hover:underline"
+                    className="text-accent hover:underline"
                     href="https://github.com/zibranhasan/lost-and-found-item-backend"
                   >
                     Server Link
                   </a>
                   <a
-                    className="text-blue-400 hover:underline"
+                    className="text-accent hover:underline"
                     href="https://github.com/zibranhasan/Lost-And-Found-Items-Frontend_Nextjs_RTK-Query_antd"
                   >
                     Client Link
                   </a>
                 </div>
-            
               </div>
             </div>
           </motion.div>

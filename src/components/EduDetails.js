@@ -65,7 +65,7 @@ const EduDetails = () => {
 
       {/* Core Subjects */}
       <div className="mt-14">
-        <h2 className="text-4xl font-semibold mb-6 text-gradient bg-clip-text text-transparent bg-gradient-to-r from-pink-400 via-red-500 to-yellow-500">
+        <h2 className="text-5xl font-bold mb-10 text-center text-gradient bg-clip-text text-transparent bg-gradient-to-r from-green-400 via-blue-500 to-purple-500">
           Core Subjects
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
@@ -98,7 +98,7 @@ const EduDetails = () => {
 
       {/* Certifications and Projects side by side */}
       <div className="mt-14">
-        <h2 className="text-4xl font-semibold mb-6 text-gradient bg-clip-text text-transparent bg-gradient-to-r from-teal-400 via-green-500 to-lime-500">
+        <h2 className="text-5xl font-bold mb-10 text-center text-gradient bg-clip-text text-transparent bg-gradient-to-r from-green-400 via-blue-500 to-purple-500">
           Certifications & Projects
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10">

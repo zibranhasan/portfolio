@@ -25,7 +25,9 @@ const App = () => {
     <Services />
     </div>
       <Work />
-      <Contact />
+     <div className="mt-20">
+     <Contact />
+     </div>
       {/* <div className='h-[4000px]'></div> */}
     </div>
   );
