@@ -10,7 +10,7 @@ import LostandfoundItem from "../assets/lostAndFoundItem.png";
 
 const Work = () => {
   return (
-    <section className="section pt-15" id="work">
+    <section className="section mt-35 pt-35" id="work">
       <div className="container mx-auto">
         <div className="flex flex-col lg:flex-row gap-x-10">
           <div className="flex-1 flex flex-col gap-y-12 mb-10 lg:mb-0">
@@ -56,21 +56,7 @@ const Work = () => {
                     Server Link
                   </a>
                 </div>
-                {/* Credentials section */}
-                <div className="mt-13">
-                  {" "}
-                  {/* Adjusted margin for more space */}
-                  <p className="text-sm">
-                    <span className="font-semibold">User:</span>
-                    <span className="text-blue-400"> user@gmail.com</span> |
-                    <span className="font-semibold"> Pass:</span> 123456
-                  </p>
-                  <p className="text-sm mt-2">
-                    <span className="font-semibold">Admin:</span>
-                    <span className="text-blue-400"> admin@gmail.com</span> |
-                    <span className="font-semibold"> Pass:</span> 123456
-                  </p>
-                </div>
+           
               </div>
             </div>
           </div>
@@ -79,7 +65,7 @@ const Work = () => {
             initial="hidden"
             whileInView={"show"}
             viewport={{ once: false, amount: 0.3 }}
-            className="flex-1 flex flex-col gap-y-10 mb-8"
+            className="flex-1 flex flex-col gap-y-2 mb-8"
           >
             {/* image */}
             <div className="group relative overflow-hidden border-2 border-white/50 rounded-xl">
@@ -92,18 +78,18 @@ const Work = () => {
                 alt="Electric Gadgets Management System"
               />
               {/* pretitle */}
-              <div className="absolute -bottom-full left-12 group-hover:bottom-28 transition-all duration-500 z-50">
+              <div className="absolute -bottom-full group-hover:bottom-16 left-12 transition-all duration-500 z-40 mb-6">
                 <span className="text-gradient">Full Stack Project</span>
               </div>
               {/* title */}
-              <div className="absolute -bottom-full left-12 group-hover:bottom-16 transition-all duration-700 z-50 mb-5">
+              <div className="absolute -bottom-full left-12 group-hover:bottom-8 transition-all duration-700 z-50 mb-5 mt-0">
                 <span className="text-1xl text-white font-bold ">
                   Electric Gadgets Management System
                 </span>
               </div>
               {/* link */}
-              <div className="absolute -bottom-full left-12 group-hover:bottom-8 transition-all duration-700 z-50 mt-2">
-                <div className="flex gap-4 mt-5">
+              <div className="absolute -bottom-full left-12 group-hover:bottom-8 transition-all duration-700 z-50">
+                <div className="flex gap-4 mt-1">
                   <a
                     className="text-blue-400 hover:underline"
                     href="https://assignment-6-gilt-nine.vercel.app/"
@@ -123,19 +109,7 @@ const Work = () => {
                     Server Link
                   </a>
                 </div>
-                {/* Credentials section */}
-                <div className="mt-14">
-                  <p className="text-sm">
-                    <span className="font-semibold">User:</span>
-                    <span className="text-blue-400"> user@gmail.com</span> |
-                    <span className="font-semibold"> Pass:</span> 123456
-                  </p>
-                  <p className="text-sm mt-2">
-                    <span className="font-semibold">Manager:</span>
-                    <span className="text-blue-400"> manager@gmail.com</span> |
-                    <span className="font-semibold"> Pass:</span> 123456
-                  </p>
-                </div>
+            
               </div>
             </div>
 
@@ -180,19 +154,7 @@ const Work = () => {
                     Client Link
                   </a>
                 </div>
-                {/* Credentials section */}
-                <div className="mt-13">
-                  <p className="text-sm">
-                    <span className="font-semibold">User:</span>
-                    <span className="text-blue-400"> user@gmail.com</span> |
-                    <span className="font-semibold"> Pass:</span> 123456
-                  </p>
-                  <p className="text-sm mt-2">
-                    <span className="font-semibold">Admin:</span>
-                    <span className="text-blue-400"> admin@gmail.com</span> |
-                    <span className="font-semibold"> Pass:</span> 123456
-                  </p>
-                </div>
+            
               </div>
             </div>
           </motion.div>

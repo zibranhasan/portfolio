@@ -15,12 +15,12 @@ const Skills = () => {
   return (
     <section className="section" id="skills" ref={ref}>
       <motion.div
-        className="container mx-auto"
+        className="container mx-auto mb-0"
         initial="hidden"
         animate={inView ? "show" : "hidden"}
         variants={fadeIn("right", 0.3)}
       >
-        <div className="flex flex-col gap-y-12 lg:flex-row lg:gap-x-16 items-center">
+        <div className="flex flex-col lg:flex-row lg:gap-x-16 items-center">
           {/* Heading */}
           <div className="flex-1 mb-12 lg:mb-0">
             <motion.h2
@@ -42,7 +42,7 @@ const Skills = () => {
           </div>
 
           {/* Skills List */}
-          <div className="flex-1 space-y-8">
+          <div className="flex-1 space-y-1">
             {/* Programming Languages */}
             <motion.div
               initial={{ opacity: 0, scale: 0.9 }}
@@ -93,7 +93,7 @@ const Skills = () => {
               transition={{ duration: 1 }}
               className="mb-6"
             >
-              <h4 className="text-xl font-semibold mb-3 text-gradient">
+              <h4 className="text-xl font-semibold mb-1 text-gradient">
                 Databases
               </h4>
               <p className="text-lg text-gray-300">MongoDB, PostgreSQL</p>

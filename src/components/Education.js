@@ -5,7 +5,7 @@ import { NavLink } from "react-router-dom";
 
 const Education = () => {
   return (
-    <section id="education" className="py-16">
+    <section id="education" className="py-4">
       <div className="container mx-auto">
         <motion.h2
           variants={fadeIn("up", 0.1)}
@@ -23,7 +23,7 @@ const Education = () => {
             initial="hidden"
             whileInView={"show"}
             viewport={{ once: false, amount: 0.7 }}
-            className="p-6 rounded-lg shadow-lg mb-8 lg:mb-0 flex-1"
+            className="p-6 rounded-lg shadow-lg mb-4 lg:mb-0 flex-1"
           >
             <motion.h3
               variants={fadeIn("up", 0.5)}
@@ -39,7 +39,7 @@ const Education = () => {
               initial="hidden"
               whileInView={"show"}
               viewport={{ once: false, amount: 0.7 }}
-              className="text-lg mb-4 text-gray-300"
+              className="text-lg mb-2 text-gray-300"
             >
               International Islamic University Chittagong
             </motion.p>

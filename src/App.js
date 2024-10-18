@@ -21,7 +21,9 @@ const App = () => {
       <Skills />
 
       {/* </div> */}
-      <Services />
+    <div className="mt-0">
+    <Services />
+    </div>
       <Work />
       <Contact />
       {/* <div className='h-[4000px]'></div> */}

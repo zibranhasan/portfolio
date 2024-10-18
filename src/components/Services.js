@@ -17,8 +17,8 @@ const services = [
 
 const Services = () => {
   return (
-    <section className="section" id="services">
-      <div className="container mx-auto">
+    <section id="services">
+      <div className="container mx-auto mb-28 mt-0 pt-0">
         <div className="flex flex-col lg:flex-row">
           {/* text section */}
           <motion.div
@@ -26,17 +26,13 @@ const Services = () => {
             initial="hidden"
             whileInView={"show"}
             viewport={{ once: false, amount: 0.2 }}
-            className="flex-1 lg:bg-bottom bg-no-repeat mix-blend-lighten mb-8 lg:mb-0"
+            className="flex-1 lg:bg-bottom bg-no-repeat mix-blend-lighten mb-2 lg:mb-0"
           >
             <h2 className="text-accent text-4xl font-bold mb-6">What I Do</h2>
             <h3 className="text-white text-2xl max-w-[455px] mb-8">
               I am a freelance MERN Stack Developer.
             </h3>
-            <NavLink to="/all-work" className="navlink text-accent">
-              <span className="text-gradient text-lg underline underline-offset-4">
-                See my work
-              </span>
-            </NavLink>
+   
           </motion.div>
 
           {/* categories section */}

@@ -1,6 +1,6 @@
 import React from "react";
 // images
-import Image from "../assets/myphoto.jpeg";
+import Image from "../assets/PXL_20240325_115443631.PORTRAIT.jpg";
 //icons
 import { FaGithub, FaFacebook, FaLinkedin } from "react-icons/fa";
 //type animation
@@ -19,7 +19,7 @@ const Banner = () => {
       <div className="container mx-auto">
         <div className="flex flex-col gap-y-8 lg:flex-row lg:items-center lg:gap-x-12">
           {/* text */}
-          <div className="mb-6 flex-1 text-center font-secondary lg:text-left">
+          <div className="mb-2 flex-1 text-center font-secondary lg:text-left">
             {/* Name */}
             <motion.h1
               variants={fadeIn("up", 0.4)}
@@ -129,7 +129,7 @@ const Banner = () => {
             initial="hidden"
             whileInView={"show"}
             viewport={{ once: false, amount: 0.7 }}
-            className="rounded-lg lg:flex flex-1 max-w-[220px] lg:max-w-[350px] mx-auto shadow-lg shadow-gray-800 border-[5px] border-gray-700 hover:border-white transition duration-300"
+            className="rounded-lg lg:flex flex-1 max-w-[220px] lg:max-w-[350px] mx-auto shadow-lg shadow-gray-800  border-gray-700 hover:border-white transition duration-300 m-4"
           >
             <img src={Image} alt="Zibran Hasan" className="rounded-lg" />
           </motion.div>
