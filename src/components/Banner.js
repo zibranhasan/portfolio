@@ -68,10 +68,8 @@ const Banner = () => {
               }}
               className="mb-8 max-w-lg mx-auto lg:mx-0 text-lg leading-relaxed text-gray-300"
             >
-              I am a full-stack developer specializing in creating MERN Stack
-              projects. Currently, I'm focused on building an online freelance
-              experience to gain more expertise.
-            </motion.p>
+          Hello! 🌟 I’m Zibran Hasan, a Full-stack Developer from Chattogram, Bangladesh, pursuing a Bachelor’s in Computer and Communication Engineering at IIUC. I’m passionate about creating technology that enhances lives and boosts business efficiency, specializing in front-end and back-end development.
+</motion.p>
 
             {/* Portfolio Link */}
             <motion.div
@@ -116,7 +114,7 @@ const Banner = () => {
                 <FaGithub />
               </a>
               <a
-                href="https://www.linkedin.com/in/zibran-hasan-64aa43276/"
+                href="https://www.linkedin.com/in/mohammad-zibran-hasan-766860334"
                 className="hover:text-blue-300 transition duration-300"
               >
                 <FaLinkedin />
